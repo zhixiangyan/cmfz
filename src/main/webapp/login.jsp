@@ -22,7 +22,7 @@
 			
 			//  form 表单提交
 			$("#loginForm").bind("submit",function(){
-				alert("buyao dhag hda");
+				//alert("buyao dhag hda");
 
 				return true;
 			});

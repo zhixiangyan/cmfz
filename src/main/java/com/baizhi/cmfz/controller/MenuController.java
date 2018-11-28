@@ -24,7 +24,6 @@ public class MenuController {
 
         List<Menu> list= menuService.getAllMenu();
 
-        System.out.println("***********"+list+"*******");
 
         map.put("list",list);
         return map;

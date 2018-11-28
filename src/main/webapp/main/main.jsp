@@ -20,11 +20,11 @@
                 var lists=data.list;
                 //alert(lists);
                 $.each(lists,function(index,item){
-                                var listz=item.menuList;
-                    alert(listz);
+                    var listz=item.menuList;
+                   // alert(listz);
                     var abc='';
                     $.each(listz,function(index,item){
-                        abc+=item.title+"<br/><br/>";
+                        abc+='<p><a id="btn" href="#" onclick="oppenLBT()" class="easyui-linkbutton" data-options="iconCls:\'icon-tip\'">'+item.title+'</a></p>';
                     });
 
                     $('#aa').accordion('add', {
@@ -42,6 +42,10 @@
             }
         });
     });
+function oppenLBT() {
+    alert()
+
+}
 </script>
 
 </head>
