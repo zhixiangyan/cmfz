@@ -20,7 +20,7 @@
                 var lists=data.list;
                 //alert(lists);
                 $.each(lists,function(index,item){
-                    var listz=item.menuList;
+                                var listz=item.menuList;
                     alert(listz);
                     var abc='';
                     $.each(listz,function(index,item){
